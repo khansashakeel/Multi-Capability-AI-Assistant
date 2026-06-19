@@ -1,0 +1,133 @@
+========================================================
+  Multi-Capability AI Assistant — Example Interactions
+========================================================
+
+---[ EXAMPLE 1: Email Writer — Formal ]---
+
+You → Write a formal email to my manager requesting approval for attending the atomcamp AI bootcamp
+
+Assistant →
+Subject: Request for Approval to Attend Agentic AI Bootcamp – atomcamp
+
+Dear [Manager's Name],
+
+I hope you are doing well. I am writing to request your approval to attend the
+Agentic AI Bootcamp organised by atomcamp, scheduled for the coming weeks.
+
+This bootcamp focuses on building production-ready AI agents using LLMs, tool
+use, and multi-step reasoning — directly aligned with the AI initiatives our team
+is currently pursuing. Attending would allow me to bring back practical frameworks
+and hands-on project experience that can be applied immediately to our RAG and
+automation projects.
+
+The programme is self-funded and conducted outside of working hours, so there
+would be no impact on my regular responsibilities.
+
+I would greatly appreciate your support and approval for this opportunity.
+
+Thank you for your time and consideration.
+
+Warm regards,
+[Your Name]
+
+---[ EXAMPLE 2: Summarizer — Medium length ]---
+
+You → Summarize: Large language models (LLMs) are AI systems trained on vast amounts of text
+data using a transformer architecture. They learn statistical patterns in language,
+enabling them to generate coherent text, answer questions, translate languages,
+write code, and perform many other tasks. Models like GPT-4, Claude, and Gemini
+have billions of parameters and are trained using self-supervised learning on
+internet-scale corpora. Despite their capabilities, LLMs face challenges including
+hallucination, bias, lack of true reasoning, and high computational costs.
+Recent advances like RAG, fine-tuning, and RLHF have been developed to address
+some of these limitations.
+
+Assistant →
+SUMMARY
+Large language models are transformer-based AI systems trained on massive text
+corpora that can generate text, answer questions, write code, and perform diverse
+language tasks. While models like GPT-4 and Claude demonstrate impressive
+capabilities, they still struggle with hallucination, bias, and reasoning
+limitations. Techniques like RAG, fine-tuning, and RLHF are actively being used
+to mitigate these shortcomings.
+
+ANALYTICS
+Original word count : 105
+Summary word count  : 58
+Reduction           : 44.8%
+
+KEY THEMES
+• Transformer architecture and large-scale training
+• Diverse language capabilities and real-world applications
+• Known limitations and mitigation strategies (RAG, RLHF, fine-tuning)
+
+---[ EXAMPLE 3: Chat — Math with Calculator tool ]---
+
+You → What is 18% of 75000?
+
+Assistant → [calculator tool called: 18/100 * 75000]
+18% of 75,000 = 13,500
+
+---[ EXAMPLE 4: Chat — Data Analysis ]---
+
+You → I have these monthly sales figures: 120000, 95000, 140000, 88000, 175000, 132000
+      Can you give me a full statistical breakdown?
+
+Assistant → [analyze_data tool called]
+Here's the full breakdown of your 6 monthly sales figures:
+
+• Sum    : 750,000
+• Mean   : 125,000
+• Median : 126,000
+• Min    : 88,000
+• Max    : 175,000
+• Std Dev: 29,580.4
+
+Your sales are fairly consistent with a standard deviation of ~29.5K.
+The highest month (175K) is 40% above the lowest (88K).
+
+---[ EXAMPLE 5: Chat — Time Tool ]---
+
+You → What day and time is it in New York right now?
+
+Assistant → [get_time_info tool called with timezone=EST]
+Current time in EST (New York):
+📅 Tuesday, June 10, 2025
+🕐 10:15 AM
+
+---[ EXAMPLE 6: Chat — Follow-up (Memory) ]---
+
+You → My name is Khansa and I'm an AI engineer
+
+Assistant → Nice to meet you, Khansa! As an AI engineer, you're working in one
+of the most exciting fields right now. What are you working on?
+
+You → What did I just tell you my name was?
+
+Assistant → You told me your name is Khansa — and that you're an AI engineer!
+
+---[ EXAMPLE 7: Email Writer — Friendly tone ]---
+
+You → Write a friendly email to my colleague inviting them to our team lunch
+
+Assistant →
+Subject: Team Lunch – You're Invited! 🍽️
+
+Hey [Name],
+
+Hope you're having a great day! We're organising a casual team lunch this week
+and would love for you to join us.
+
+It'll be a great chance to catch up outside of work and have some good food
+together. Details below:
+
+📅 Date: [Day, Date]
+🕐 Time: [Time]
+📍 Venue: [Location]
+
+No agenda, no meetings — just good vibes and good food! 😄
+
+Let me know if you can make it. Looking forward to seeing you there!
+
+Cheers,
+[Your Name]
